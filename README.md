@@ -1,8 +1,8 @@
 # Zest2D-Engine
 一个基于Java Swing的2D轻量游戏引擎，天生支持跨平台，不过性能不算非常高
 
-**使用示例**
-*提示：在主类的static代码块第一行加入启用OpenGL和Direct3D性能更优哦~*
+## 使用示例
+***提示：在主类的static代码块第一行加入启用OpenGL和Direct3D性能更优哦~***
 ```java
 package com.example.zest2dexample;
 
