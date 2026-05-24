@@ -2,7 +2,15 @@
 一个基于Java Swing的2D轻量游戏引擎，天生支持跨平台，不过性能不算非常高
 
 ## 使用示例
-***提示：在主类的static代码块第一行加入启用OpenGL和Direct3D性能更优哦~***
+***提示：在主类的static代码块第一行加入启用OpenGL或Direct3D性能更优哦~***
+```java
+// 使用OpenGL或Direct3D加速
+if (System.getProperty("os.name").toLowerCase().contains("win")) {
+    System.setProperty("sun.java2d.d3d", "true");
+} else {
+    System.setProperty("sun.java2d.opengl", "true");
+}
+```
 ```java
 package com.example.zest2dexample;
 
